@@ -1,0 +1,24 @@
+body {
+  background-color: darkseagreen;
+}
+
+a {
+  text-decoration: none;
+}
+
+nav ul,
+nav ol {
+    list-style: none;
+    list-style-image: none;
+}
+
+section ul,
+section ol {
+  list-style: none;
+  list-style-image: none;
+}
+
+footer {
+  color: mintcream;
+  background-color: darkolivegreen;
+}
