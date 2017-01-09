@@ -16,7 +16,7 @@ h1 {
 }
 
 header {
-  background: #444;
+  background: green;
   height: 100px;
 }
 
@@ -55,6 +55,7 @@ img {
     transition: 0.3s;
     width: 25%;
     height: auto;
+    float: right;
 }
 
 footer {
