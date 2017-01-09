@@ -1,11 +1,40 @@
+@media only screen and (min-width: 840px) {
+  .heading-group-h1 {
+  padding: .1em .1em .1em 2em;
+  float: none;
+  }
+}
+
 body {
   background-color: darkseagreen;
+  line-height: 1.5;
+  font-size: 100%;
 }
+
+h1 {
+  color: black;
+}
+
+header {
+  background: #444;
+  height: 100px;
+}
+
 
 a {
   text-decoration: none;
+  color: #039;
 }
 
+.inner {
+  width: 960px;
+  margin: 0 auto;
+}
+
+.project {
+  display: inline-block;
+  width: 50%;
+}
 nav ul,
 nav ol {
     list-style: none;
@@ -16,6 +45,16 @@ section ul,
 section ol {
   list-style: none;
   list-style-image: none;
+}
+
+img {
+    display: inline-block;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 5px;
+    transition: 0.3s;
+    width: 25%;
+    height: auto;
 }
 
 footer {
