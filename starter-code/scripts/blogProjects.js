@@ -1,5 +1,4 @@
 var blogProjects = [
-
   {
     title:       'Baseball Ipsum',
     category:    'sports',
