@@ -1,4 +1,4 @@
-var blogProjects = [
+var myProjects = [
   {
     title:       'Baseball Ipsum',
     category:    'sports',

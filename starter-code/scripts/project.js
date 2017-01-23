@@ -39,11 +39,11 @@ Project.prototype.toHtml = function() {
   publishedOn properties to arrange the blog posts in
   descending order (most recent first).
 */
-blogProjects.sort(function(currentObject, nextObject) {
+myProjects.sort(function(currentObject, nextObject) {
   return (new Date(nextObject.publishedOn)) - (new Date(currentObject.publishedOn));
 });
 
-blogProjects.forEach(function(ele) {
+myProjects.forEach(function(ele) {
   projects.push(new Project(ele));
 });
 
